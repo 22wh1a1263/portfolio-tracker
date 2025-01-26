@@ -26,44 +26,50 @@ The backend of the application is built using Node.js and Express.
 ```bash
 cd backend
 ```
-2. Install backend dependencies:
-bash
+#### 2. Install backend dependencies:
+```bash
 Copy
 npm install
-3. Create a .env file in the backend directory with the following content:
-bash
+```
+#### 3. Create a .env file in the backend directory with the following content:
+```bash
 Copy
+```
 MONGO_URI=mongodb://localhost:27017/portfolio-tracker
 PORT=5000
-4. Run the backend server:
-bash
+#### 4. Run the backend server:
+```bash
 Copy
 npm run dev
+```
 The server will run on http://localhost:5000.
 
-Frontend Setup
+## Frontend Setup
 The frontend is built using React.
 
-1. Go to the frontend directory:
-bash
+#### 1. Go to the frontend directory:
+```bash
 Copy
 cd frontend
-2. Install frontend dependencies:
-bash
+```
+#### 2. Install frontend dependencies:
+```bash
 Copy
 npm install
-3. Run the React app:
-bash
+```
+#### 3. Run the React app:
+```bash
 Copy
 npm start
+```
 The frontend will run on http://localhost:3000.
 
 Now you can access the application in your browser.
 
-Assumptions
+## Assumptions
 The application assumes basic knowledge of stock portfolios.
 You have MongoDB running locally on your machine or have connected to a cloud MongoDB service.
-Limitations
+## Limitations
 No user authentication is implemented.
 Limited stock market API data for portfolio tracking.
 
