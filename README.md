@@ -67,10 +67,10 @@ The frontend will run on http://localhost:3000.
 Now you can access the application in your browser.
 
 ## Assumptions
-The application assumes basic knowledge of stock portfolios.
-You have MongoDB running locally on your machine or have connected to a cloud MongoDB service.
+-The application assumes basic knowledge of stock portfolios.
+-You have MongoDB running locally on your machine or have connected to a cloud MongoDB service.
 ## Limitations
-No user authentication is implemented.
-Limited stock market API data for portfolio tracking.
+-No user authentication is implemented.
+-Limited stock market API data for portfolio tracking.
 
 
